@@ -1,0 +1,38 @@
+body{
+    background-color: cadetblue;
+    margin-top: 15%;
+}
+#Calculater{
+    border: 2px solid rgb(107, 107, 107);
+    width: 40%;
+    height: 50vh;
+    margin: auto;
+    background-color: rgb(33, 34, 34);
+ } 
+#cal-display{
+    background-color: rgb(212, 212, 101);
+    border: 1px solid black;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+} 
+form{
+    width: 90%;
+    margin-left: 50px;
+}
+form input{
+    font-size: 18px;
+    font-weight: bold;
+margin: 8px;
+width: 15%;
+height: 5vh;
+background-color: rgb(51, 51, 51);
+color: #fff;}
+form input:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+#clear-all{
+    width: 75%;
+    height: 5vh;
+}
