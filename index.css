@@ -1,38 +1,27 @@
-body{
-    background-color: cadetblue;
-    margin-top: 15%;
+.display {
+  background-color: rgb(201, 201, 201);
+  padding: 15px;
+  width: 250px;
+  text-align: right;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-#Calculater{
-    border: 2px solid rgb(107, 107, 107);
-    width: 40%;
-    height: 50vh;
-    margin: auto;
-    background-color: rgb(33, 34, 34);
- } 
-#cal-display{
-    background-color: rgb(212, 212, 101);
-    border: 1px solid black;
-    width: 90%;
-    height: 10vh;
-    margin: auto;
-} 
-form{
-    width: 90%;
-    margin-left: 50px;
+
+button {
+  padding: 10px;
+  width: 67px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: rgb(194, 194, 194);
+  color: black;
+  font-size: 20px;
 }
-form input{
-    font-size: 18px;
-    font-weight: bold;
-margin: 8px;
-width: 15%;
-height: 5vh;
-background-color: rgb(51, 51, 51);
-color: #fff;}
-form input:hover{
-    background-color: yellowgreen;
-    color: black;
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(182, 178, 178);
 }
-#clear-all{
-    width: 75%;
-    height: 5vh;
+button:active {
+  background-color: rgb(136, 136, 136);
 }
